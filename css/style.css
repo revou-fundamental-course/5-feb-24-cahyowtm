@@ -48,17 +48,18 @@ input {
     width: 80%;
 }
 
-button {
+button{
     flex-direction: column;
     color: white;
+    outline: none;
     border-radius: 5px;
     padding: 5px 5px;
-    background-color: rgb(4, 187, 4);
+    background-color: rgb(4, 141, 4);
     cursor: pointer;
 }
 
 button:hover {
-    color: rgba(57, 153, 18, 0.986);
+    color: rgba(5, 15, 1, 0.986);
 }
 
 button:active {
@@ -77,4 +78,8 @@ h3 {
 p {
     width: 70%;
     padding: 20px 20px 0px 0px;
+}
+
+@media screen and (max-width: 700px) {
+    
 }
